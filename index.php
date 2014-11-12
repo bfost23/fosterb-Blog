@@ -7,7 +7,7 @@
     </head>
     <body>
         <?php
-        // put your code here
+            echo"Web Server is Running Locally";
         ?>
     </body>
 </html>
