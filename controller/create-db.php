@@ -8,8 +8,20 @@
         //kills program and displays error message
         die("Error: " . $connection->connect_error);
     }
-    else{
-        echo"Success: " . $connection->host_info;
+    //selects the database we need 
+    $exists = $connection->select_db($database);
+    //checking for a connection to the database
+    if(!$exists){
+        //creates a database
+        $query = $connection->query("CREATE DATABASE $database");
+        
+        if($query){
+            echo "Creation was a Success: " . $database; 
+        }
+    }
+    //if database exists this message will be printed out 
+    else {
+        echo "Database already exists";
     }
     $connection->close();
     
