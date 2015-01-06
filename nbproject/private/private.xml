@@ -5,6 +5,10 @@
         <group>
             <file>file:/C:/xampp/htdocs/fosterb-blog/model/database.php</file>
             <file>file:/C:/xampp/htdocs/fosterb-blog/index.php</file>
+            <file>file:/C:/xampp/htdocs/fosterb-blog/view/form.php</file>
+            <file>file:/C:/xampp/htdocs/fosterb-blog/view/navigation.php</file>
+            <file>file:/C:/xampp/htdocs/fosterb-blog/model/config.php</file>
+            <file>file:/C:/xampp/htdocs/fosterb-blog/post.php</file>
         </group>
     </open-files>
 </project-private>
